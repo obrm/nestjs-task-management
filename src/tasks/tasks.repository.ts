@@ -3,7 +3,6 @@ import { CreateTaskDto } from "./dto/create-task.dto";
 import { TaskStatus } from "./task-status.enum";
 import { Task } from "./task.entity";
 import { NotFoundException } from '@nestjs/common';
-import { UpdateTaskStatusDto } from './dto/update-task-status.dto';
 import { GetTaskFilterDto } from "./dto/get-task-filter.dto";
 
 @EntityRepository(Task)
